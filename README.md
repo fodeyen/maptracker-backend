@@ -31,3 +31,16 @@ Uygulamayı Başlatma:
 ```
 ./mvnw spring-boot:run
 ```
+API'ları Kullanma:
+
+Leaflet harita bileşeninden gelen istekleri işlemek için RESTful API'lar mevcuttur.
+Örnek API istekleri:
+- Konumları getir: GET /points/get-all-points
+- Konum kaydet: POST /points/save-point
+- Konum sil: DELETE /points/delete/{id}
+Swagger Erişimi:
+
+Uygulama başladıktan sonra, Swagger arayüzüne erişmek için aşağıdaki URL'yi ziyaret edin:
+```
+http://localhost:8080/swagger-ui/
+```
